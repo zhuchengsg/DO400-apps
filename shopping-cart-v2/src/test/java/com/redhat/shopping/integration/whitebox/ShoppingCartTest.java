@@ -24,7 +24,7 @@ public class ShoppingCartTest {
 
     @Inject
     CartService cartService;
-
+/*
     @BeforeAll
     public static void setup() {
         CatalogStorage mockStorage = Mockito.mock(InMemoryCatalogStorage.class);
@@ -36,7 +36,7 @@ public class ShoppingCartTest {
 
         QuarkusMock.installMockForType(mockStorage, CatalogStorage.class);
     }
-
+*/
     @BeforeEach
     void clearCart() {
         this.cartService.clear();

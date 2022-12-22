@@ -37,7 +37,7 @@ public class ShoppingCartTest {
             .body(productToAdd)
             .put("/cart");
     }
-
+/*
     @BeforeAll
     public static void setup() {
         CatalogStorage mockStorage = Mockito.mock(InMemoryCatalogStorage.class);
@@ -51,7 +51,7 @@ public class ShoppingCartTest {
 
         QuarkusMock.installMockForType(mockStorage, CatalogStorage.class);
     }
-
+*/
     @BeforeEach
     public void clearCart() {
         delete("/cart");
